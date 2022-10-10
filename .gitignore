@@ -1,0 +1,3 @@
+# Project exclude paths
+/junit3/target/
+/junit4/target/
