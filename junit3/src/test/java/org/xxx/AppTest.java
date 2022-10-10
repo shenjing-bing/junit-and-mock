@@ -14,21 +14,26 @@ public class AppTest extends TestCase {
     @Override
     protected void setUp() throws Exception {
         super.setUp();
-        this.list = List.of("aaa", "bbb");
+        this.list = List.of("aa", "bb");
         System.out.println("<set up>");
 
     }
     // method name must start with 'test'
     public void testForJunit3() {
-        //given
-        final var java = "aaa";
-        //when
+        //Arrange
+        final var java = "aa";
+        //act
         boolean aaa = list.contains(java);
-        //then
+        //assert
         assertTrue(aaa);
     }
     public void test2ForJunit3() {
-
+        //Arrange
+        final var java = "bb";
+        //act
+        boolean bb = list.contains(java);
+        //assert
+        assertTrue(bb);
     }
 
     @Override

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954d2917-eb81-46fd-a044-d6184492886a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="954d2917-eb81-46fd-a044-d6184492886a" name="Changes" comment="junit commit">
+      <change afterPath="$PROJECT_DIR$/junit3/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit3/src/test/java/org/xxx/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit3/src/test/java/org/xxx/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/junit3/src/test/java/org/xxx/StandardForTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit3/src/test/java/org/xxx/StandardForTestSuite.java" afterDir="false" />
@@ -14,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,6 +28,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Constructor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/framework/Test.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/framework/TestCase.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/framework/TestResult.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/framework/TestSuite.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/runner/BaseTestRunner.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/runner/TestCaseClassLoader.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/textui/TestRunner.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,24 +66,80 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "zulu-17",
+    "last_opened_file_path": "/Users/shenjingbin/ideaworkspacestudy/junit-and-mock",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.6625239",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.StandardForTestSuite">
-    <configuration name="Version" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="junit.runner.Version" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/junit3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.junit.textui.TestRunner (2)">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="zulu-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="junit.textui.TestRunner" />
       <module name="junit3" />
+      <option name="PROGRAM_PARAMETERS" value="com.xxx.AppTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.runner.*" />
+          <option name="PATTERN" value="junit.textui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="junit.textui.TestRunner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="junit.textui.TestRunner" />
+      <module name="junit3" />
+      <option name="PROGRAM_PARAMETERS" value="org.xxx.AppTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.textui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="junit.textui.TestRunner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="junit.textui.TestRunner" />
+      <module name="junit3" />
+      <option name="PROGRAM_PARAMETERS" value="org.xxx.AppTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.textui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="junit.textui.TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="junit.textui.TestRunner" />
+      <module name="junit3" />
+      <option name="PROGRAM_PARAMETERS" value="com.xxx.AppTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit.textui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,59 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.xxx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.xxx" />
-      <option name="MAIN_CLASS_NAME" value="org.xxx.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testForJunit3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.xxx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.xxx" />
-      <option name="MAIN_CLASS_NAME" value="org.xxx.AppTest" />
-      <option name="METHOD_NAME" value="testForJunit3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StandardForTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.xxx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.xxx" />
-      <option name="MAIN_CLASS_NAME" value="org.xxx.StandardForTestSuite" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StandardForTestSuite" />
+        <item itemvalue="Application.junit.textui.TestRunner (2)" />
+        <item itemvalue="Application.junit.textui.TestRunner" />
+        <item itemvalue="Application.TestRunner" />
         <item itemvalue="JUnit.AppTest (1)" />
-        <item itemvalue="Application.Version" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.testForJunit3" />
+        <item itemvalue="Application.junit.textui.TestRunner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -157,8 +185,16 @@
       <updated>1665381208832</updated>
       <workItem from="1665381211839" duration="561000" />
       <workItem from="1665383116385" duration="5816000" />
-      <workItem from="1665389552944" duration="2782000" />
+      <workItem from="1665389552944" duration="12106000" />
     </task>
+    <task id="LOCAL-00001" summary="junit commit">
+      <created>1665392369138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665392369138</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +210,30 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="junit commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="junit commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/textui/TestRunner.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/runner/BaseTestRunner.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/mavenRepository/junit/junit/3.8.2/junit-3.8.2-sources.jar!/junit/textui/TestRunner.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

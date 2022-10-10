@@ -9,6 +9,7 @@ import java.util.Enumeration;
  **/
 public class StandardForTestSuite{
 
+    // method name must be 'suite'
     public static Test suite(){
         TestSuite allTests = new TestSuite("execution all tests");
         allTests.addTestSuite(AppTest.class);
