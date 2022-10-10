@@ -15,6 +15,7 @@ public class AppTest extends TestCase {
     protected void setUp() throws Exception {
         super.setUp();
         this.list = List.of("aaa", "bbb");
+        System.out.println("<set up>");
 
     }
     // method name must start with 'test'
@@ -26,10 +27,14 @@ public class AppTest extends TestCase {
         //then
         assertTrue(aaa);
     }
+    public void test2ForJunit3() {
+
+    }
 
     @Override
     protected void tearDown() throws Exception {
         super.tearDown();
+        System.out.println("<tear down>");
     }
 
 
