@@ -14,10 +14,6 @@ public class StandardForTestSuite{
         TestSuite allTests = new TestSuite("execution all tests");
         allTests.addTestSuite(AppTest.class);
         int i = allTests.countTestCases();
-        Enumeration tests = allTests.tests();
-        System.out.println(tests);
-        System.out.println(i);
-        System.out.println(allTests.getName());
         return allTests;
     }
 }
